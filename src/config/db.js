@@ -11,9 +11,9 @@ const path = require('path');
 //         native: false, // lets Sequelize know we can use pg-native for ~30% more speed
 //        // Utilizamos 'postgres' para PostgreSQL
 //   });
-//const url='postgres://uemkbgiz:cINBSu8LHpJpu9etfaVq1kdWJsP8QWIe@snuffleupagus.db.elephantsql.com/uemkbgiz'
-const url='postgres://postgres:31416@localhost:5432/registro';
-// const url='postgres://registro_sqha_user:7FMYvHMgl9SQpGjXVTVZHyqYe3GGdVQ0@dpg-cmab3kvqd2ns738tje6g-a.oregon-postgres.render.com/registro_sqha'
+
+//const url='postgres://postgres:31416@localhost:5432/registro';
+const url='postgres://registro_sqha_user:7FMYvHMgl9SQpGjXVTVZHyqYe3GGdVQ0@dpg-cmab3kvqd2ns738tje6g-a/registro_sqha'
  const sequelize = new Sequelize(url,{
      logging: false
  })
