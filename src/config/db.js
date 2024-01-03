@@ -14,8 +14,9 @@ const path = require('path');
 
 //const url='postgres://postgres:31416@localhost:5432/registro';
 const url='postgres://registro_sqha_user:7FMYvHMgl9SQpGjXVTVZHyqYe3GGdVQ0@dpg-cmab3kvqd2ns738tje6g-a/registro_sqha'
+//const url='postgres://registro_sqha_user:7FMYvHMgl9SQpGjXVTVZHyqYe3GGdVQ0@dpg-cmab3kvqd2ns738tje6g-a.oregon-postgres.render.com/registro_sqha'
  const sequelize = new Sequelize(url,{
-     logging: false
+     logging: false,
  })
 
 const basename = path.basename(__filename);
